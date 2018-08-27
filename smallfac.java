@@ -10,6 +10,8 @@ class testing {
 
     testcases=sc.nextInt();
     int n;
+    int array[200];
+
     for (int v=1;v<=testcases;v++)
     {
         n=sc.nextInt();

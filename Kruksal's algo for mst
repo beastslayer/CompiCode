@@ -1,0 +1,7 @@
+
+1.Let there be n vertices.
+2.Then we create n disjoint sets each representing the vertices.
+3.Sort the edges in the non decreasing order.
+4.Iterate through the edges and if the vertices are not in same set then include the edge in final result and merge the 2 disjoint sets.
+5.If the vertices of the edge belong to the same set then ignore the edge and move continue.
+6.Do this until you have all the edges covered.
